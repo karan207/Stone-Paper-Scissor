@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+.header{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    background-color: salmon;
+}
+
+.scoreboard{
+    height: 13%;
+    background-color: rosybrown;
+    width: 100%;
+    display: flex;
+}
+
+.user-heading{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-family: roboto;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.player-score, .computer-score{
+    height: 50%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.player, .computer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: green;
+    border-right: 1px solid black;
+    overflow: hidden;
+}
+
+.computer-side, .user-side{
+    height: 30%;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.symbols, .rock, .paper, .scissor{
+    height: 170px;
+    width: 170px;
+    border: 1px solid black;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.result{
+    height: 20%;
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-family: roboto;
+}
